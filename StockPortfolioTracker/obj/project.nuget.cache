@@ -1,8 +1,24 @@
 {
   "version": 2,
-  "dgSpecHash": "TXQ8xeAFD2w=",
+  "dgSpecHash": "iAJxtMwEGIQ=",
   "success": true,
   "projectFilePath": "/home/rowan-victor/Projects/cs/StockPortfolioTracker/StockPortfolioTracker/StockPortfolioTracker.csproj",
-  "expectedPackageFiles": [],
-  "logs": []
+  "expectedPackageFiles": [
+    "/home/rowan-victor/.nuget/packages/newtonsoft.json/11.0.2/newtonsoft.json.11.0.2.nupkg.sha512",
+    "/home/rowan-victor/.nuget/packages/threefourteen.finnhub.client/1.2.0/threefourteen.finnhub.client.1.2.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "message": "Package 'Newtonsoft.Json' 11.0.2 has a known high severity vulnerability, https://github.com/advisories/GHSA-5crp-9r3c-p9vr",
+      "projectPath": "/home/rowan-victor/Projects/cs/StockPortfolioTracker/StockPortfolioTracker/StockPortfolioTracker.csproj",
+      "warningLevel": 1,
+      "filePath": "/home/rowan-victor/Projects/cs/StockPortfolioTracker/StockPortfolioTracker/StockPortfolioTracker.csproj",
+      "libraryId": "Newtonsoft.Json",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    }
+  ]
 }
